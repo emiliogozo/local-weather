@@ -1,0 +1,26 @@
+body {
+    font-family: "Roboto";
+    background-color: #161616;
+    color: white;
+}
+
+header {
+    margin-top: 10%;
+}
+
+header h1 {
+    font-size: 54px;
+}
+
+#owm-weather-icon {
+    padding-top: 12px;
+}
+
+#owm-weather-desc {
+    margin-top: -12px;
+}
+
+#owm-temperature-units, a:visited, a:hover, a:active {
+  color: #006dcc;
+  text-decoration: none;
+}

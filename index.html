@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Local Weather</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,700,400" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- owfont -->
+    <link href="bower_components/owfont/css/owfont-regular.min.css" rel="stylesheet">
+
+    <link href="main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="row">
+            <div class="text-center col-xs-12">
+                <h1>Weather App</h1>
+            </div>
+        </header>
+        <div class="row">
+            <div class="text-center col-xs-offset-2 col-xs-8">
+                <h1 id="owm-location">Location</h1>
+                <h2><span id="owm-temperature">30</span> &#176;<a id="owm-temperature-units" href=#>C</a></h2>
+                <h2 id="owm-weather-main">Cloudy</h2>
+                <p id="owm-weather-desc">The sky is cloudy</p>
+                <i id="owm-weather-icon" class="owf owf-800-d owf-5x"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
