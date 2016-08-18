@@ -2,7 +2,7 @@
 
 A page showing weather summary
 
-View on [CodePen](http://codepen.io/emiliogozo/full/YWdPYK)
+View on [CodePen](http://codepen.io/emiliogozo/pen/RRERoJ)
 
 ### Technologies used:
 - HTML
